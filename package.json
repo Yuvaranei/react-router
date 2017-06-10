@@ -1,7 +1,7 @@
 {
   "name": "reactrouter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Using react-router-dom to implement routing\r 1. npm install react-router-dom\r 2. Use BrowserHistory to route paths\r 3. {Link} to redirect to the route path",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --history-api-fallback"
@@ -22,13 +22,16 @@
     "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "bootstrap": "^3.3.7",
     "css-loader": "^0.28.4",
     "node-sass": "^4.5.3",
     "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.1.1",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.1",
+    "url-loader": "^0.5.8",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
   }

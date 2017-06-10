@@ -7,6 +7,7 @@ export default class Home extends React.Component{
             <div>
                 <h1>React Router Examples!!</h1>
                 <ul role="nav">
+                    <li><Link to="/welcome" className='testLink'>Welcome</Link></li>
                     <li><Link to="/about" className='testLink'>About</Link></li>
                     <li><Link to="/contact" className='testLink'>Contact</Link></li>
                 </ul>
